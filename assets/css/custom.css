@@ -1,0 +1,42 @@
+html, body{
+    background-color:#fafafa;
+}
+
+#main-container{
+    background-color: #eeeeee;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+#head-section{
+    border-bottom: 2px solid rgba(0,0,0,0.3)
+}
+
+#list-section{
+    padding-top: 30px;
+}
+
+.social-list-item{
+    /* Unset colot set by default bt style */
+    background-color: unset; 
+}
+
+
+@media (max-width: 991.98px) {
+    #main-container{
+        height: auto;
+        width: calc(100vw - 32px);
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+        padding: 16px;
+    }
+ }
+
+@media (min-width: 992px) { 
+    #main-container{
+        height: auto;
+        margin-top: 16vh;
+        padding: 52px;
+    }    
+ }
